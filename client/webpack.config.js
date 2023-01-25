@@ -17,17 +17,27 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
 
-    // Add and configure workbox plugins for a service worker and manifest file.
+    // Add and configure workbox
+	// plugins for a service worker and manifest file.
+
     plugins: [
-     // Webpack plugin that generates our html file and injects our bundles. 
+
+     // Webpack plugin that generates our
+	 // html file and injects our bundles. 
      new HtmlWebpackPlugin({
-      // Creates a copy of the index.html file in the dist folder and inserts in script tag to the newly created bundle.js file
+
+      // Creates a copy of the index.html file in 
+	  //the dist folder and inserts in script tag
+	  // to the newly created bundle.js file
+
       template: './index.html', 
+
       // Optional parameters
       title: 'Text Editor'
     }),
    
     // Injects our custom service worker
+
     new InjectManifest({
       swSrc: './src-sw.js',
       swDest: 'src-sw.js',
@@ -58,15 +68,19 @@ module.exports = () => {
       // Add CSS loaders to webpack
       rules: [
         {
-          // This looks for a .css file and adds this into the bundle.js file
+          // This looks for a .css file and 
+		  //adds this into the bundle.js file
           test: /\.css$/i,
-          // Additional modules for converting the css into js
+
+          // Additional modules for
+		  // converting the css into js
           use: ["style-loader", "css-loader"]
         },
         {
           test: /\.m?js$/,
           exclude: /node_modules/,
-          // Add babel-loader to webpack in order to use ES6
+          // Add babel-loader to webpack
+		  // in order to use ES6
           use: {
             loader: "babel-loader",
             options: {
