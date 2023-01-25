@@ -4,8 +4,8 @@
 
 The created J.A.T.E is a simple text editor app that can function both online and offline, with a variety of data persistence options in order to ensure that data is not lost in any scenario. The application first looks to use the data in the indexedDB to populate the editor, then if it cannot access that it will use local storage. For use offline, this application can be downloaded to your desktop as an application. Create a text/code editor that functions on a single page, follows PWA criteria, and works offline. The application will also able to be downloaded onto your computer or mobile device to be used outside of the browser.
 
+This is the link to the [App](https://blooming-thicket-32337.herokuapp.com/)
 
-https://blooming-thicket-32337.herokuapp.com/
 
 
 ## Table of Contents
@@ -18,11 +18,11 @@ https://blooming-thicket-32337.herokuapp.com/
 
 ## Installation
 
-1. Clone the repository.
-2. Run "npm i" to install the npm packages.
-3. Do the "npm init"
-4. Create the "dotenv" file.
-5. Set up the the dotenv to connect to the Mongo and Port.
+You can open the [App](https://blooming-thicket-32337.herokuapp.com/)
+
+- To install the app onto your local computer, click the install button on the screen.
+
+
 
 ## Demo
 
