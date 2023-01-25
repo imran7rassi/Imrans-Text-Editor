@@ -37,7 +37,7 @@ You can open the [App](https://blooming-thicket-32337.herokuapp.com/)
 
 To use this app go to the [Link](https://blooming-thicket-32337.herokuapp.com/). The beauty of this application is that you can use it wherever you like! And install it wherever you like to use it offline.
 
-![](./Assets/Screenshot%20mongo.jpg) ![](./Assets/insomnia.jpg)
+![](./Assets/screen%201.jpg) ![](./Assets/screen%202.jpg) ![](./Assets/screen%203.jpg)
 
 ## License
 
@@ -47,12 +47,11 @@ To use this app go to the [Link](https://blooming-thicket-32337.herokuapp.com/).
 
 ## Credits
 
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-- [Express.js](https://expressjs.com/)
-- [Node.js](https://nodejs.org/en/)
-- [MongoDB](https://www.mongodb.com/)
-- [Mongoose](https://mongoosejs.com/)
-- [Insomnia](https://insomnia.rest/)
+
+![javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![node](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![Webpack](https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=Webpack&logoColor=white)
 
 
 ## Questions
