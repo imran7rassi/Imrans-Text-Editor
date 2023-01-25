@@ -22,7 +22,7 @@ You can open the [App](https://blooming-thicket-32337.herokuapp.com/)
 
 - To install the app onto your local computer, click the install button on the screen.
 
-
+![](./Assets/Screenshot%20mongo.jpg)
 
 ## Demo
 
@@ -30,15 +30,12 @@ You can open the [App](https://blooming-thicket-32337.herokuapp.com/)
 
 
 
-* You also can go through that link for a better look <a href="">Video</a>
+* You also can go through that link for a better look <a href="https://drive.google.com/file/d/1dCZZ9mnskBs4Y8FNng2e01TuQSryRjAO/view">Video</a>
 
 
 ## Usage 
 
-1. To invoke the application, run `npm start`..
-2. When the server is started, the Mongoose models are synched to the MongoDB database.
-3. Open MongoDB and connect to the MongoDB URI `mongodb://localhost:27017`. On the list of databases, click on `social_DB` to see `thoughts` and `users` data.
-4. To create seed data and test the API routes, use [Insomnia](https://insomnia.rest/download). Also, see the Tests section below.
+To use this app go to the [Link](https://blooming-thicket-32337.herokuapp.com/). The beauty of this application is that you can use it wherever you like! And install it wherever you like to use it offline.
 
 ![](./Assets/Screenshot%20mongo.jpg) ![](./Assets/insomnia.jpg)
 
