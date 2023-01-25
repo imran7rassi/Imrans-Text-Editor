@@ -37,7 +37,10 @@ You can open the [App](https://blooming-thicket-32337.herokuapp.com/)
 
 To use this app go to the [Link](https://blooming-thicket-32337.herokuapp.com/). The beauty of this application is that you can use it wherever you like! And install it wherever you like to use it offline.
 
-![](./Assets/screen%201.jpg) ![](./Assets/screen%202.jpg) ![](./Assets/screen%203.jpg)
+![](./Assets/screen%201.jpg) ![](./Assets/screen%202.jpg) ![](./Assets/screen%203.jpg) 
+
+- You can use the app when you are offline. 
+![](./Assets/offline.jpg)
 
 ## License
 
